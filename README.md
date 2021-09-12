@@ -6,4 +6,4 @@ Jeg har oprettet repositoriet, således, at det kan bruges som et bilag i divers
 
 Du må gerne bruge koden i din egen rapport, men så skal du også stemme for en lavere aktieskat :)
 
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+- ![#Farven blå](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
