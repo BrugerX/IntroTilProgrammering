@@ -6,4 +6,5 @@ Jeg har oprettet repositoriet, således, at det kan bruges som et bilag i divers
 
 Du må gerne bruge koden i din egen rapport, men så skal du også stemme for en lavere aktieskat :)
 
-- ![#Farven blå](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+![drip 5](https://user-images.githubusercontent.com/88563236/133001217-84770ed1-930e-46f9-bef8-a704ce40bce3.JPG)
+
