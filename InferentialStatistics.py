@@ -102,28 +102,3 @@ class sampleDataSet:
 
 
 
-population = [1,1,0,0,0,0,1,0]
-gruppe1 = [1,1,0,1]
-gruppe2 = [0,0,0,0]
-
-
-t_3 = 2.920  #T-value, hvis sample size er 3
-t_4 = 2.353  #T-value, hvis sample size er 4
-t_6 = 2.015  #T-value, hvis sample size er 6
-
-calc1 = sampleDataSet(gruppe1,initIsProportion=True)
-calc2 = sampleDataSet(gruppe2, initIsProportion=True)
-calc3 = sampleDataSet(population)
-
-print(calc1.sampEstMean)
-print(calc1.standErrMean)
-print(f"95% coverage confidence interval: {calc1.sampEstMean} +/- {calc1.confI}")
-print(calc1.cInterval)
-print("\n")
-
-
-print(calc2.sampEstMean)
-print(calc2.standErrMean)
-print(f"95% coverage confidence interval: {calc2.sampEstMean} +/- {calc2.confI}")
-print(calc2.cInterval)
-print("\n")
