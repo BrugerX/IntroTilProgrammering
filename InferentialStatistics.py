@@ -101,4 +101,13 @@ class sampleDataSet:
         return sampleVarFrompop
 
 
+""" It assumes the interval to be 95%"""
+def calculateSampleSize(p,e):
+    k = 1.96**2
+    top = p*(1-p)
+    try:
+        n = k*top/e**2
+        return(n)
+    except:
+        print(f"ERROR in calculate sample size\nThis is e: {e}")
 
