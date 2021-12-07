@@ -110,4 +110,7 @@ def calculateSampleSize(p,e):
         return(n)
     except:
         print(f"ERROR in calculate sample size\nThis is e: {e}")
-
+"""CREDITS TIL:
+Benjamin Mirad Gurini, DTU, Kunstig Intelligens og Data
+Phd. I god kammerat
+"""
