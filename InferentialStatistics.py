@@ -84,7 +84,11 @@ class sampleDataSet:
         self.cInterval = [self.sampEstMean - self.confI, self.sampEstMean + self.confI]
 
 
-
+        """ Returns a standardized sample set"""
+    def standardizedReturn(self):
+        z = (np.array(self.sample) - self.sampEstMean)/self.popStandDev
+        return z
+    
     #Beregner variance på baggrund af en population
     def popVariance(sample):
         sampleMean = calcMean(sample)
@@ -101,4 +105,18 @@ class sampleDataSet:
         return sampleVarFrompop
 
 
+""" It assumes the interval to be 95%"""
+def calculateSampleSize(p,e):
+    k = 1.96**2
+    top = p*(1-p)
+    try:
+        n = k*top/e**2
+        return(n)
+    except:
+        print(f"ERROR in calculate sample size\nThis is e: {e}")
+        
+        
+"""CREDITS TIL:
+Benjamin Mirad Gurini, DTU, Kunstig Intelligens og Data
 
+"""
