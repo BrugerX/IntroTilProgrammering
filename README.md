@@ -8,3 +8,4 @@ Du må gerne bruge koden i din egen rapport, men så skal du også stemme for en
 
 
 ![wow](https://user-images.githubusercontent.com/88563236/133001255-322bc59e-fd12-425e-841e-4f03999d3a55.JPG)
+R.I.P 2020
